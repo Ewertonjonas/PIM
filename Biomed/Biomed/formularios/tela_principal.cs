@@ -16,5 +16,15 @@ namespace Biomed.formularios
         {
             InitializeComponent();
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        public void tela_principal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

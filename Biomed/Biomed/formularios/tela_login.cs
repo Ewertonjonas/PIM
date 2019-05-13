@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Biomed.formularios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,11 +26,22 @@ namespace Biomed
 
             if (usuario == "admin" && senha == "admin")
 
+            
+
+
+
             {
-                tela_login novo = new tela_login();
+                tela_principal novo = new tela_principal();
                 novo.Show();
                 this.Visible = false;
 
+                MessageBox.Show("Logado com Sucesso");
+
+            }
+            else
+            {
+                MessageBox.Show("USUÁRIO OU SENHA INVÁLIDO");
+                                  
             }
 
 
