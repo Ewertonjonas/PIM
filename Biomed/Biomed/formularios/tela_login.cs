@@ -16,5 +16,24 @@ namespace Biomed
         {
             InitializeComponent();
         }
+
+        public void btnAcessar_Click(object sender, EventArgs e)
+        {
+            string usuario, senha;
+            usuario = txtUsuario.Text;
+            senha = txtSenha.Text;
+
+            if (usuario == "admin" && senha == "admin")
+
+            {
+                tela_login novo = new tela_login();
+                novo.Show();
+                this.Visible = false;
+
+            }
+
+
+             
+        }
     }
 }

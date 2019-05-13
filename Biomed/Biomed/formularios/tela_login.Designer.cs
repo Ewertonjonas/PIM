@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAcessar = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtSenha = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button2
@@ -47,15 +47,16 @@
             this.button2.Text = "Limpar";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnAcessar
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(237, 282);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Acessar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAcessar.BackColor = System.Drawing.Color.Transparent;
+            this.btnAcessar.Location = new System.Drawing.Point(237, 282);
+            this.btnAcessar.Name = "btnAcessar";
+            this.btnAcessar.Size = new System.Drawing.Size(75, 23);
+            this.btnAcessar.TabIndex = 20;
+            this.btnAcessar.Text = "Acessar";
+            this.btnAcessar.UseVisualStyleBackColor = false;
+            this.btnAcessar.Click += new System.EventHandler(this.btnAcessar_Click);
             // 
             // linkLabel1
             // 
@@ -92,25 +93,26 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "Usuário";
             // 
-            // textBox2
+            // txtUsuario
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Silver;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(237, 135);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 35);
-            this.textBox2.TabIndex = 16;
+            this.txtUsuario.BackColor = System.Drawing.Color.Silver;
+            this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(237, 135);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(200, 35);
+            this.txtUsuario.TabIndex = 16;
             // 
-            // textBox1
+            // txtSenha
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Silver;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(237, 201);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 35);
-            this.textBox1.TabIndex = 15;
+            this.txtSenha.BackColor = System.Drawing.Color.Silver;
+            this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSenha.Location = new System.Drawing.Point(237, 201);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '*';
+            this.txtSenha.Size = new System.Drawing.Size(200, 35);
+            this.txtSenha.TabIndex = 15;
             // 
             // tela_login
             // 
@@ -120,13 +122,14 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(550, 441);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAcessar);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.txtSenha);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "tela_login";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -137,12 +140,12 @@
         #endregion
 
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAcessar;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtSenha;
     }
 }
 

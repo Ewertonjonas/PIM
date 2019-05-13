@@ -11,3 +11,16 @@ C:\Users\Ewerton Jonas\source\repos\PimBiomed\Biomed\Biomed\obj\Debug\Biomed.pdb
 C:\Users\Ewerton Jonas\source\repos\PimBiomed\Biomed\Biomed\obj\Debug\Biomed.formularios.tela_principal.resources
 C:\Users\Ewerton Jonas\source\repos\PimBiomed\Biomed\Biomed\obj\Debug\Biomed.formularios.agenda.resources
 C:\Users\Ewerton Jonas\source\repos\PimBiomed\Biomed\Biomed\obj\Debug\Biomed.formularios.estoque.resources
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\bin\Debug\Biomed.exe.config
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\bin\Debug\Biomed.exe
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\bin\Debug\Biomed.pdb
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.csprojAssemblyReference.cache
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.formularios.agenda.resources
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.formularios.estoque.resources
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.tela_login.resources
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.formularios.tela_principal.resources
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.Properties.Resources.resources
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.csproj.GenerateResource.cache
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.csproj.CoreCompileInputs.cache
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.exe
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.pdb
