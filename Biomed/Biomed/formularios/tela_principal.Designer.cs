@@ -184,6 +184,7 @@
             this.label2.Size = new System.Drawing.Size(75, 57);
             this.label2.TabIndex = 2;
             this.label2.Text = "Cadastro \r\n     de\r\nPaciente";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox4
             // 
@@ -228,6 +229,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel2
             // 

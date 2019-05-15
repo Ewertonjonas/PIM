@@ -16,5 +16,12 @@ namespace Biomed.formularios
         {
             InitializeComponent();
         }
+
+        internal class Show
+        {
+            public Show()
+            {
+            }
+        }
     }
 }

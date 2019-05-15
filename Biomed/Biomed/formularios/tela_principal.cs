@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Biomed.formularios;
+
 
 namespace Biomed.formularios
 {
@@ -23,6 +25,18 @@ namespace Biomed.formularios
         }
 
         public void tela_principal_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            agenda ag1 = new agenda();
+            ag1.ShowDialog(); 
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

@@ -24,3 +24,7 @@ C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.cspro
 C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.csproj.CoreCompileInputs.cache
 C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.exe
 C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.pdb
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.formularios.add_produto.resources
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.formularios.edit_produto.resources
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.formularios.mov_estoque.resources
+C:\Users\Ewerton Jonas\Documents\GitHub\PIM\Biomed\Biomed\obj\Debug\Biomed.formularios.remov_produto.resources

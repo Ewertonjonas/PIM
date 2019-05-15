@@ -46,17 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formularios\add_produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\add_produto.Designer.cs">
+      <DependentUpon>add_produto.cs</DependentUpon>
+    </Compile>
     <Compile Include="formularios\agenda.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formularios\agenda.Designer.cs">
       <DependentUpon>agenda.cs</DependentUpon>
     </Compile>
+    <Compile Include="formularios\edit_produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\edit_produto.Designer.cs">
+      <DependentUpon>edit_produto.cs</DependentUpon>
+    </Compile>
     <Compile Include="formularios\estoque.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="formularios\estoque.Designer.cs">
       <DependentUpon>estoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\mov_estoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\mov_estoque.Designer.cs">
+      <DependentUpon>mov_estoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\remov_produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\remov_produto.Designer.cs">
+      <DependentUpon>remov_produto.cs</DependentUpon>
     </Compile>
     <Compile Include="formularios\tela_login.cs">
       <SubType>Form</SubType>
@@ -72,11 +96,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formularios\add_produto.resx">
+      <DependentUpon>add_produto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formularios\agenda.resx">
       <DependentUpon>agenda.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formularios\edit_produto.resx">
+      <DependentUpon>edit_produto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formularios\estoque.resx">
       <DependentUpon>estoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\mov_estoque.resx">
+      <DependentUpon>mov_estoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\remov_produto.resx">
+      <DependentUpon>remov_produto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formularios\tela_login.resx">
       <DependentUpon>tela_login.cs</DependentUpon>

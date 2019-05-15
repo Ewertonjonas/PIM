@@ -30,7 +30,6 @@
         {
             this.button2 = new System.Windows.Forms.Button();
             this.btnAcessar = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
@@ -57,17 +56,6 @@
             this.btnAcessar.Text = "Acessar";
             this.btnAcessar.UseVisualStyleBackColor = false;
             this.btnAcessar.Click += new System.EventHandler(this.btnAcessar_Click);
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.Location = new System.Drawing.Point(332, 239);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(108, 13);
-            this.linkLabel1.TabIndex = 19;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "? Esqueceu a senha ";
             // 
             // label2
             // 
@@ -123,7 +111,6 @@
             this.ClientSize = new System.Drawing.Size(550, 441);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnAcessar);
-            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtUsuario);
@@ -141,7 +128,6 @@
 
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnAcessar;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUsuario;
